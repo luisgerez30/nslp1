@@ -170,6 +170,7 @@
           <Property Name="fecha" Type="DateTime" Precision="3" />
           <Property Name="idRol" Type="Int32" />
           <NavigationProperty Name="rol" Relationship="Self.FK_usuario_rol" FromRole="usuario" ToRole="rol" />
+          <Property Name="PropiedadNueva" Type="String" Nullable="false" />
         </EntityType>
         <Association Name="FK_operaciones_modulo">
           <End Role="modulo" Type="Self.modulo" Multiplicity="0..1" />
