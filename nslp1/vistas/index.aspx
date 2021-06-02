@@ -3,34 +3,6 @@
 <!DOCTYPE html>
 
 
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">Hidden brand</a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
-
-
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -43,12 +15,75 @@
             
 
 <body>
+
+
     <!-- Page Content-->
     <div class="container px-4 px-lg-5">
+
+
+         <div>
+
+    <nav class="navbar navbar-dark bg-primary">
+        </div>
+
+  <!-- Navbar content -->
+</nav>
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="../vistas/index.aspx">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Carreras <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="navbar-nav mr-auto">
+        <a class="nav-link" href="#">Alumnos</a>
+      </li>
+      <li class="navbar-nav mr-auto">
+        <a class="nav-link" href="../vistas/pagoCuota.aspx">Pago de Cuotas (prueba)</a>
+      </li>
+      
+    </ul>
+       <a class="nav-link" href="../vistas/login.aspx"><span>Login</span></a>
+   
+  </div>
+</nav>
+
+
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark indigo">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
         <!-- Heading Row-->
         <div class="row gx-4 gx-lg-5 align-items-center my-5">
             <div class="col-lg-7">
-                <img class="img-fluid rounded mb-4 mb-lg-0" src="https://lh3.googleusercontent.com/proxy/NQbolVOoBJQy2nI_-T73eDWr64U9ChYNdHXzU9fwsw9IChjuEpTRhR6e-UjxURlaU9umJXAB5rfvJDspECplS5K_" alt="..." />
+                <img class="img-fluid rounded mb-4 mb-lg-0" src="https://lh3.googleusercontent.com/proxy/rqltEpFe4UAXRs6cswUUNBkC_x7MLXJIBP03QZmVkglBRQfQwkLVLkC-n-4stWLKCTCyGif76nzxjKXuxK7aOw40" alt="..." />
 
                 <!--corrusel-->
                 <!---->

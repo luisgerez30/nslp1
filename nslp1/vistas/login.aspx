@@ -1,31 +1,37 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="login.aspx.cs" Inherits="vistas_login" %>
 
 <!DOCTYPE html>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+<div class="container px-4 px-lg-5">
+
+
+    <div>
+
+    <nav class="navbar navbar-dark bg-primary">
+        </div>
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="../vistas/index.aspx">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">Hidden brand</a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Carreras <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+      <li class="navbar-nav mr-auto">
+        <a class="nav-link" href="#">Alumnos</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      <li class="navbar-nav mr-auto">
+        <a class="nav-link" href="../vistas/pagoCuota.aspx">Pago de Cuotas (prueba)</a>
       </li>
+      
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+       <a class="nav-link" href="../vistas/login.aspx">Login</a>
+   
   </div>
 </nav>
-
-
+</div>
 
 
 
@@ -39,7 +45,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <hr />
+        
 <div class="container">
     <div class="row">
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
@@ -48,12 +54,18 @@
                     <h5 class="card-title text-center">Login</h5>
                     <form action="Login/Login" method="post" class="form-signin">
                         <div class="form-label-group">
-                            <input type="email" name="email" class="form-control" placeholder="Email address" required autofocus>
-                            <label for="inputEmail">Email</label>
+
+
+                            <asp:TextBox id="em" runat="server" type="text" name="arrobaemail" class="form-control" placeholder="Email address" />
+                               
+                          
+
+
+                            <label for="inputEm<text></text>ail">Email</label>
                         </div>
 
                         <div class="form-label-group">
-                            <input type="password" name="password" class="form-control" placeholder="Password" required>
+                            <asp:TextBox id="password" type="password" runat="server" name="password" class="form-control" placeholder="Password" />
                             <label for="inputPassword">Contraseña</label>
                         </div>
 
@@ -61,7 +73,10 @@
                             <input type="checkbox" class="custom-control-input" id="customCheck1">
                             <label class="custom-control-label" for="customCheck1">Recordar contraseña</label>
                         </div>
-                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Ingresar</button>
+
+                    
+                        <asp:Button id="button_ldgin" runat="server" text="Ingresar" class="btn btn-lg btn-primary btn-block text-uppercase"/>
+
                         <hr class="my-4">
                         <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Ingresar con Google</button>
                         <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Ingresar con Facebook</button>
