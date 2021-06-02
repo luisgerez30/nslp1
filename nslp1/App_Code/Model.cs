@@ -78,6 +78,7 @@ public partial class usuario
     public string password { get; set; }
     public Nullable<System.DateTime> fecha { get; set; }
     public Nullable<int> idRol { get; set; }
+    public string PropiedadNueva { get; set; }
 
     public virtual rol rol { get; set; }
 }
