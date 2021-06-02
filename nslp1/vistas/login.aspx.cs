@@ -29,8 +29,8 @@ public partial class vistas_login : System.Web.UI.Page
         cn.Open();
         string query = "select count(*) from usuario where nombre= @usuario and Clave = @password";
         SqlCommand cm = new SqlCommand(query, cn);
-      cm.Parameters.AddWithValue("@usuario", em);
-       cm.Parameters.AddWithValue("@password", password);
+      //cm.Parameters.AddWithValue("@usuario", em);
+       //cm.Parameters.AddWithValue("@password", password);
 
         //Si existe un usuario con los datos retorna true, caso contrario false
         bool correcto = Convert.ToInt32(cm.ExecuteScalar()) > 0;
