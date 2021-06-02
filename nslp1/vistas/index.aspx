@@ -83,7 +83,7 @@
         <!-- Heading Row-->
         <div class="row gx-4 gx-lg-5 align-items-center my-5">
             <div class="col-lg-7">
-                <img class="img-fluid rounded mb-4 mb-lg-0" src="https://lh3.googleusercontent.com/proxy/rqltEpFe4UAXRs6cswUUNBkC_x7MLXJIBP03QZmVkglBRQfQwkLVLkC-n-4stWLKCTCyGif76nzxjKXuxK7aOw40" alt="..." />
+                <img class="img-fluid rounded mb-4 mb-lg-0" src="http://www.nslapaz.edu.ar/images/fondo.png" alt="..." />
 
                 <!--corrusel-->
                 <!---->
